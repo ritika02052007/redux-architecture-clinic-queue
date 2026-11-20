@@ -1,5 +1,6 @@
 # Redux Architecture | Clinic Queue
 Patient queue dashboard. React + Vite + Redux Toolkit.
+
 ## Run
 `npm install` · `npm run dev` · `npm test` · `npm run lint` · `npm run build`
 ## Architecture
