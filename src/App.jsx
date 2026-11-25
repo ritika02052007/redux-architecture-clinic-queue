@@ -11,7 +11,6 @@ class ErrorBoundary extends Component {
   }
 }
 
-
 export default function App() {
   const online = useOnline();
   return (
