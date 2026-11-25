@@ -1,6 +1,7 @@
 export const config = { min: 800, max: 1500, failRate: 0.15 };
 
 // Fake network call: random latency, random failure, fails when offline.
+
 export const request = () =>
   new Promise((resolve, reject) => {
     if (typeof navigator !== 'undefined' && !navigator.onLine) return reject(new Error('You are offline'));
