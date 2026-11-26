@@ -10,6 +10,7 @@ const useNow = (ms) => {
   useEffect(() => { const t = setInterval(() => setNow(Date.now()), ms); return () => clearInterval(t); }, [ms]);
   return now;
 };
+
 export const useOnline = () => {
   const [on, setOn] = useState(() => navigator.onLine);
   useEffect(() => {
